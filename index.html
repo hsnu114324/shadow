@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陰の実力者になりたくて！— 德中晶晶體字幕</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --text: #d4d4d4;
+    --de: #c084fc;
+    --de-glow: rgba(192, 132, 252, 0.15);
+    --zh-hint: #7ec8e3;
+    --tooltip-bg: #2a2a40;
+    --accent: #c084fc;
+    --border: #333;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', 'Noto Sans TC', 'Noto Sans', Arial, sans-serif;
+    line-height: 2;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+    background: linear-gradient(180deg, #16213e 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--border);
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+    color: #888;
+  }
+
+  .hint-box {
+    display: inline-block;
+    background: rgba(192,132,252,0.08);
+    border: 1px solid rgba(192,132,252,0.2);
+    border-radius: 6px;
+    padding: 0.6rem 1rem;
+    margin-top: 1rem;
+    font-size: 0.82rem;
+    color: #aaa;
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .line {
+    padding: 0.35rem 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 0.1rem;
+    transition: background 0.2s;
+    font-size: 1.05rem;
+  }
+
+  .line:hover { background: rgba(255,255,255,0.03); }
+
+  .scene {
+    display: block;
+    color: var(--accent);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2.2rem 0 0.6rem;
+    padding: 0 0.8rem;
+    opacity: 0.7;
+  }
+
+  /* 德文詞（晶晶體核心） */
+  .w {
+    position: relative;
+    color: var(--de);
+    font-style: italic;
+    cursor: pointer;
+    padding: 1px 4px;
+    border-radius: 3px;
+    transition: background 0.2s, color 0.15s;
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1.5px dotted rgba(192,132,252,0.4);
+  }
+
+  .w:hover {
+    background: var(--de-glow);
+    color: #e2bdff;
+  }
+
+  .w .t {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--tooltip-bg);
+    color: var(--zh-hint);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.88rem;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    pointer-events: none;
+    z-index: 100;
+    transition: opacity 0.2s, visibility 0.2s;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-weight: normal;
+  }
+
+  .w .t::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--tooltip-bg);
+  }
+
+  .w:hover .t {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    .line { font-size: 0.95rem; }
+    header h1 { font-size: 1.4rem; }
+    .w .t { left: 0; transform: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>陰の実力者になりたくて！</h1>
+  <p>The Eminence in Shadow — 德中晶晶體字幕 (Deutsch-Chinesisch Kristallstil)</p>
+  <nav style="display:flex;justify-content:center;gap:1rem;margin-top:1.2rem;">
+    <a href="index.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid var(--accent);border-radius:6px;font-size:0.85rem;background:rgba(192,132,252,0.15);font-weight:600;">第一集 字幕</a>
+    <a href="page2.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Prolog 小說</a>
+    <a href="page3.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 1 小說</a>
+    <a href="page4.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 2 小說</a>
+    <a href="page5.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 3 小說</a>
+    <a href="page6.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 4 小說</a>
+    <a href="page7.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 5 小說</a>
+    <a href="page8.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Kapitel 6 小說</a>
+<a href="page9.html" style="color:var(--accent);text-decoration:none;padding:0.4rem 1.2rem;border:1px solid rgba(192,132,252,0.3);border-radius:6px;font-size:0.85rem;">Epilog 小說</a>
+  </nav>
+  <div class="hint-box">
+    <span style="color:var(--de);">紫色詞彙</span> = 德文原文，滑鼠移上去可看中文翻譯
+  </div>
+</header>
+
+<main>
+
+<span class="scene">OP / 開場</span>
+
+<div class="line">我已經不<span class="w">weiß<span class="t">記得</span></span>，一切是怎麼<span class="w">angefangen<span class="t">開始的</span></span>。</div>
+
+<div class="line">自從我有<span class="w">Gedanken<span class="t">思想、記憶</span></span>以來，這就是我的<span class="w">Ziel<span class="t">目標</span></span>：</div>
+
+<div class="line">成為<span class="w">Schatteneminenz<span class="t">暗中的實力者</span></span>。</div>
+
+<div class="line"><span class="w">Alpha<span class="t">阿爾法</span></span>？</div>
+
+<div class="line">你<span class="w">völlig recht<span class="t">完全正確</span></span>。</div>
+
+<div class="line">在古老的<span class="w">Schriften<span class="t">文獻</span></span>中發現了<span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>的<span class="w">Anzeichen<span class="t">蹤跡</span></span>。</div>
+
+<div class="line"><span class="w">Also doch<span class="t">果然如此</span></span>。</div>
+
+<div class="line">我們<span class="w">erfahren<span class="t">了解</span></span>得越多，就越能看清他們<span class="w">unglaublicher Einfluss<span class="t">驚人的影響力</span></span>。</div>
+
+<div class="line"><span class="w">Dennoch<span class="t">儘管如此</span></span>我仍想……</div>
+
+<div class="line">我們藏在<span class="w">Schatten<span class="t">陰影</span></span>之中，去<span class="w">jagen<span class="t">追獵</span></span>陰影。</div>
+
+<div class="line">正是這樣才構成了——我一直想成為的<span class="w">Schatteneminenz<span class="t">暗中的實力者</span></span>。</div>
+
+<div class="line">但是……這個<span class="w">Elfe<span class="t">精靈</span></span>真的很<span class="w">oberflächlich<span class="t">膚淺</span></span>。</div>
+
+<span class="scene">OP 歌曲</span>
+
+<div class="line">我現在把一切<span class="w">aufs Spiel<span class="t">孤注一擲</span></span>！</div>
+
+<div class="line">伸出我的<span class="w">Hand<span class="t">手</span></span>，直到觸及我的<span class="w">Ideal<span class="t">理想</span></span>。</div>
+
+<div class="line">在我眼前展開了各種<span class="w">Alternativen<span class="t">選擇</span></span>。</div>
+
+<div class="line"><span class="w">Gut<span class="t">善</span></span>與<span class="w">Böse<span class="t">惡</span></span>的<span class="w">Zahnräder<span class="t">齒輪</span></span>互相咬合。</div>
+
+<div class="line">朝著同一個<span class="w">Ende<span class="t">終點</span></span>運轉。</div>
+
+<div class="line">每一個<span class="w">Wahl<span class="t">選擇</span></span>都是純粹的<span class="w">zufällig<span class="t">偶然</span></span>。</div>
+
+<div class="line">這個<span class="w">Zeichen<span class="t">徵兆</span></span>意味著繼續前進，直到所有<span class="w">Möglichkeiten<span class="t">可能性</span></span>都被窮盡。</div>
+
+<div class="line">我必須找出我的<span class="w">Ziel<span class="t">目標</span></span>。</div>
+
+<div class="line">只要一個——我只<span class="w">brauche<span class="t">需要</span></span>一個！</div>
+
+<div class="line">那<span class="w">Eine<span class="t">唯一的</span></span>——我只想<span class="w">erfassen<span class="t">掌握</span></span>那一個！</div>
+
+<div class="line">我深植於心的<span class="w">Prinzipien<span class="t">原則</span></span>和<span class="w">Überzeugung<span class="t">信念</span></span>，<span class="w">niemals<span class="t">絕不</span></span>放棄！</div>
+
+<div class="line"><span class="w">Ganz nach oben<span class="t">直衝頂端</span></span>，我出發了！</div>
+
+<div class="line">從<span class="w">Realität<span class="t">現實</span></span>到<span class="w">Schatten der Wahrheit<span class="t">真相的影子</span></span>！</div>
+
+<div class="line"><span class="w">Ganz nach oben<span class="t">直衝頂端</span></span>，我繼續前進！</div>
+
+<div class="line">如果這是你的<span class="w">Wunsch<span class="t">願望</span></span>，那就不惜一切<span class="w">Preis<span class="t">代價</span></span><span class="w">stolz<span class="t">驕傲地</span></span>貫徹到底！</div>
+
+<span class="scene">第一集 正篇</span>
+
+<div class="line">在<span class="w">Oberschule<span class="t">高中</span></span>最後一個<span class="w">Sommer<span class="t">暑假</span></span>，看起來我——<span class="w">Kageno Minoru<span class="t">影野實</span></span>——似乎無法再成為<span class="w">Schatteneminenz<span class="t">暗中的實力者</span></span>了。</div>
+
+<div class="line"><span class="w">VERSTORBEN<span class="t">已故</span></span>：<span class="w">KAGENO MINORU-SAN<span class="t">影野實 先生</span></span>（18）</div>
+
+<div class="line"><span class="w">Claire<span class="t">乖兒</span></span>想要一個<span class="w">kleinen Bruder<span class="t">弟弟</span></span>！她會很<span class="w">freuen<span class="t">高興</span></span>的！</div>
+
+<div class="line">這是<span class="w">was<span class="t">怎麼</span></span>回事？</div>
+
+<div class="line">但是……<span class="w">seltsam<span class="t">奇怪</span></span>……他完全沒有<span class="w">weint<span class="t">哭</span></span>。</div>
+
+<div class="line"><span class="w">Verstehe<span class="t">原來如此</span></span>。</div>
+
+<div class="line"><span class="w">Wäh! Wäh!<span class="t">哇！哇！（哭聲）</span></span></div>
+
+<div class="line">多麼<span class="w">kräftige<span class="t">有力的</span></span><span class="w">Stimme<span class="t">聲音</span></span>！</div>
+
+<div class="line">大概只是<span class="w">Einbildung<span class="t">錯覺</span></span>吧。</div>
+
+<div class="line">不知道這是怎麼<span class="w">passiert<span class="t">發生的</span></span>。但誰在乎那些<span class="w">Details<span class="t">細節</span></span>？</div>
+
+<div class="line">我周圍到處充滿了<span class="w">Magie<span class="t">魔力</span></span>！</div>
+
+<div class="line"><span class="w">Magie<span class="t">魔力</span></span>。</div>
+
+<div class="line">在<span class="w">früheren Leben<span class="t">前世</span></span>我曾夢想過，如今我擁有了這股<span class="w">überwältigende Kraft<span class="t">壓倒性的力量</span></span>。</div>
+
+<div class="line">這就是一切——<span class="w">alles, was zählt<span class="t">重要的全部</span></span>。</div>
+
+<div class="line">有了這股<span class="w">Kraft<span class="t">力量</span></span>……</div>
+
+<div class="line">噢，我需要<span class="w">kacken<span class="t">大便</span></span>。</div>
+
+<div class="line"><span class="w">Wäh! Wäh!<span class="t">哇！哇！（哭聲）</span></span></div>
+
+<div class="line">我出生在偏遠鄉下的<span class="w">Baronenfamilie Kagenō<span class="t">影野男爵家</span></span>。</div>
+
+<div class="line">他們是以<span class="w">Magie<span class="t">魔力</span></span>強化<span class="w">Körper<span class="t">身體</span></span>聞名的<span class="w">magische Ritter<span class="t">魔法騎士</span></span>。</div>
+
+<div class="line">有才華的<span class="w">Nachfolger<span class="t">繼承人</span></span>……不是我。</div>
+
+<div class="line">我躲在才華洋溢的<span class="w">Schwester<span class="t">姐姐</span></span>的<span class="w">Schatten<span class="t">影子</span></span>裡，過著完全<span class="w">Durchschnittsjunge<span class="t">普通男孩</span></span>的生活。</div>
+
+<div class="line">但<span class="w">in Wirklichkeit<span class="t">實際上</span></span>……</div>
+
+<div class="line">你們這些<span class="w">Räuber<span class="t">強盜</span></span>生意做得不錯嘛！把你們的<span class="w">Kohle<span class="t">錢</span></span>交出來吧。</div>
+
+<div class="line"><span class="w">Unterschätz<span class="t">小看</span></span>我們？你這<span class="w">Kackbratze<span class="t">臭鬼</span></span>！</div>
+
+<div class="line"><span class="w">Mistkerl<span class="t">混蛋</span></span>！</div>
+
+<div class="line">省省你的<span class="w">Gelaber<span class="t">廢話</span></span>。我要看到<span class="w">Geld<span class="t">錢</span></span>。</div>
+
+<div class="line"><span class="w">Slime Sword<span class="t">史萊姆劍</span></span>真的很好用。效果比我想的還要好。</div>
+
+<div class="line">呃，<span class="w">huch<span class="t">咦</span></span>？</div>
+
+<div class="line">嗯，算了。那你現在得充當我的<span class="w">Tests<span class="t">測試</span></span>對象了。</div>
+
+<div class="line">你如果<span class="w">reinhängst<span class="t">拼命</span></span>的話，可以多活<span class="w">zwei Minuten<span class="t">兩分鐘</span></span>。所以拼命吧。</div>
+
+<div class="line"><span class="w">Verarsch<span class="t">耍</span></span>我？</div>
+
+<div class="line">怎麼樣？我精通<span class="w">Bushin-Stil<span class="t">武神流</span></span>的<span class="w">Kunst<span class="t">劍術</span></span>！</div>
+
+<div class="line"><span class="w">Hättest wohl gern<span class="t">想得美</span></span>。</div>
+
+<div class="line">你果然連<span class="w">zwei Minuten<span class="t">兩分鐘</span></span>都撐不了。</div>
+
+<div class="line"><span class="w">Slime Bodysuit<span class="t">史萊姆緊身衣</span></span>也很<span class="w">perfekt<span class="t">完美</span></span>。</div>
+
+<div class="line">我已經替你們這些<span class="w">Kaufleute<span class="t">商人</span></span><span class="w">gerächt<span class="t">報仇了</span></span>。</div>
+
+<div class="line">別<span class="w">Sorge<span class="t">擔心</span></span>，我會有效利用你們的<span class="w">Andenken<span class="t">遺物</span></span>。</div>
+
+<div class="line"><span class="w">Geld<span class="t">金錢</span></span>、<span class="w">Kunstwerke<span class="t">藝術品</span></span>、<span class="w">Essen<span class="t">食物</span></span>……</div>
+
+<div class="line">一個<span class="w">Käfig<span class="t">籠子</span></span>……他們養<span class="w">Sklaven<span class="t">奴隸</span></span>？</div>
+
+<div class="line">真是<span class="w">Überraschung<span class="t">意外</span></span>……不是<span class="w">Leiche<span class="t">屍體</span></span>。</div>
+
+<div class="line">腐爛得很嚴重，但還<span class="w">am Leben<span class="t">活著</span></span>。</div>
+
+<div class="line">那這東西被<span class="w">Dämon<span class="t">惡魔</span></span><span class="w">besessen<span class="t">附身</span></span>了？</div>
+
+<div class="line">這個<span class="w">Wellenlänge<span class="t">波長</span></span>我感覺很<span class="w">bekannt<span class="t">熟悉</span></span>……就像<span class="w">Magieraserei<span class="t">魔力暴走</span></span>。</div>
+
+<div class="line">這具<span class="w">Fleisch<span class="t">身體（肉）</span></span>還挺<span class="w">nützlich<span class="t">好用</span></span>的。反正不是我的<span class="w">Körper<span class="t">身體</span></span>，想怎麼<span class="w">experimentieren<span class="t">實驗</span></span>就怎麼實驗！</div>
+
+<div class="line">從那之後，我往這具<span class="w">Fleisch<span class="t">身體</span></span>灌注了大量的<span class="w">Magie<span class="t">魔力</span></span>。我的魔法<span class="w">Experimenten<span class="t">實驗</span></span>讓我樂在其中。</div>
+
+<div class="line">一個<span class="w">Monat<span class="t">月</span></span>後，我終於能<span class="w">kontrollieren<span class="t">控制</span></span><span class="w">Magieraserei<span class="t">魔力暴走</span></span>了。</div>
+
+<div class="line"><span class="w">Allerdings<span class="t">不過</span></span>……</div>
+
+<div class="line"><span class="w">Hoppla<span class="t">哎呀</span></span>。</div>
+
+<div class="line">明明腐爛得那麼嚴重，她居然<span class="w">zurückverwandelt<span class="t">變回來</span></span>了？</div>
+
+<div class="line">嗯，我現在<span class="w">was mach ich<span class="t">怎麼辦</span></span>？啊，<span class="w">ich weiß<span class="t">我知道了</span></span>！</div>
+
+<div class="line">仔細看好了。<span class="w">Schatteneminenz<span class="t">暗中實力者</span></span>的<span class="w">erster Auftritt<span class="t">首次登場</span></span>。</div>
+
+<span class="scene">Shadow 與 Alpha 的相遇</span>
+
+<div class="line">你<span class="w">wach<span class="t">醒了</span></span>嗎？</div>
+
+<div class="line">我的<span class="w">Körper<span class="t">身體</span></span>……<span class="w">Unmöglich<span class="t">不可能</span></span>！</div>
+
+<div class="line">我<span class="w">aufgehoben<span class="t">解除了</span></span>侵蝕你身體的<span class="w">Fluch<span class="t">詛咒</span></span>。現在你<span class="w">frei<span class="t">自由</span></span>了。</div>
+
+<div class="line">你……<span class="w">erlöst<span class="t">救了</span></span>我？</div>
+
+<div class="line">什麼<span class="w">Fluch<span class="t">詛咒</span></span>？</div>
+
+<div class="line">這個<span class="w">verdammte<span class="t">該死的</span></span><span class="w">Fluch<span class="t">詛咒</span></span>……是施加在你們這些<span class="w">Nachkommen von Helden<span class="t">勇者後裔</span></span>身上的。</div>
+
+<div class="line">這一定讓你很<span class="w">überrascht<span class="t">驚訝</span></span>。但你一定也知道：</div>
+
+<div class="line"><span class="w">Heilige Schrift<span class="t">聖典</span></span>中的三位<span class="w">Helden<span class="t">勇者</span></span>打敗了<span class="w">Dämon Diablos<span class="t">魔神暗魔</span></span>。</div>
+
+<div class="line">每個人都知道他們拯救<span class="w">Welt<span class="t">世界</span></span>的<span class="w">Märchen<span class="t">故事</span></span>。只是——那不是<span class="w">Märchen<span class="t">童話</span></span>。</div>
+
+<div class="line">面對<span class="w">Tod<span class="t">死亡</span></span>，<span class="w">Dämon<span class="t">魔神</span></span>創造了一個<span class="w">Fluch<span class="t">詛咒</span></span>，把你變成了腐爛的<span class="w">Fleischklumpen<span class="t">肉塊</span></span>。</div>
+
+<div class="line">但<span class="w">Geschichte<span class="t">歷史</span></span>被<span class="w">verfälscht<span class="t">篡改</span></span>了，你們被當作被<span class="w">Dämonen<span class="t">惡魔</span></span>附身的存在而遭到<span class="w">verachtet<span class="t">唾棄</span></span>。</div>
+
+<div class="line">在這背後的<span class="w">Drahtzieher<span class="t">幕後黑手</span></span>……我還不能告訴你。你會有<span class="w">Gefahr<span class="t">危險</span></span>。</div>
+
+<div class="line">我不在乎！<span class="w">Wer steckt dahinter<span class="t">幕後黑手是誰</span></span>？</div>
+
+<div class="line"><span class="w">Verstehe<span class="t">我明白了</span></span>……那我就告訴你——</div>
+
+<div class="line"><span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>……這個<span class="w">Kult<span class="t">教團</span></span>企圖讓<span class="w">Dämon Diablos<span class="t">魔神暗魔</span></span><span class="w">wiederauferstehen<span class="t">復活</span></span>。</div>
+
+<div class="line">他們從不公開<span class="w">Öffentlichkeit<span class="t">現身</span></span>。我想從<span class="w">Schatten<span class="t">陰影</span></span>中<span class="w">unterbinden<span class="t">阻止</span></span>他們的<span class="w">Machenschaften<span class="t">陰謀</span></span>。</div>
+
+<div class="line">對了！我的<span class="w">Name<span class="t">名字</span></span>是 Styli…… 不。</div>
+
+<div class="line">我的<span class="w">Name<span class="t">名字</span></span>是<span class="w">Shadow<span class="t">暗影</span></span>！</div>
+
+<div class="line">我藏在<span class="w">Schatten<span class="t">陰影</span></span>之中，去<span class="w">jagen<span class="t">追獵</span></span><span class="w">Schatten<span class="t">陰影</span></span>。</div>
+
+<div class="line"><span class="w">Shadow<span class="t">暗影</span></span>……</div>
+
+<div class="line">這條<span class="w">Weg<span class="t">路</span></span>會很<span class="w">steinig<span class="t">崎嶇</span></span>，但我必須<span class="w">beschreiten<span class="t">走下去</span></span>。</div>
+
+<div class="line">回答我，<span class="w">Heldenkind<span class="t">勇者之子</span></span>：你<span class="w">bereit<span class="t">準備好</span></span>跟我一起走這條路嗎？</div>
+
+<div class="line">這個<span class="w">Krankheit<span class="t">病</span></span>……不……在我被<span class="w">verflucht<span class="t">詛咒</span></span>的那天，我<span class="w">alles verloren<span class="t">失去了一切</span></span>。</div>
+
+<div class="line">我註定要醜陋地<span class="w">verwesen<span class="t">腐爛</span></span>。而你<span class="w">gerettet<span class="t">救了</span></span>了我。</div>
+
+<div class="line">如果這符合你的<span class="w">Wunsch<span class="t">心願</span></span>，我會為你獻出我的<span class="w">Leben<span class="t">生命</span></span>。</div>
+
+<div class="line">這些<span class="w">Verbrecher<span class="t">罪人</span></span>應該以<span class="w">Tod<span class="t">死</span></span>贖罪。</div>
+
+<div class="line">算了，反正這些全都是我<span class="w">ausgedacht<span class="t">編的</span></span>。</div>
+
+<div class="line">我們的<span class="w">Feinde<span class="t">敵人</span></span>應該是有權勢的<span class="w">Machthaber<span class="t">大人物</span></span>。很多人在不知<span class="w">Wahrheit<span class="t">真相</span></span>的情況下被他們<span class="w">gelenkt<span class="t">操控</span></span>。</div>
+
+<div class="line">但擋在我們面前的人，不值得<span class="w">Gnade<span class="t">寬恕</span></span>。</div>
+
+<div class="line"><span class="w">Ja, genau<span class="t">對，就是這樣</span></span>！這就對了！</div>
+
+<div class="line">我們必須找到其他<span class="w">Heldenkinder<span class="t">勇者之子</span></span>，並<span class="w">beschützen<span class="t">保護</span></span>他們。</div>
+
+<div class="line">呃？啊，對。我們需要一個<span class="w">Basis<span class="t">據點</span></span>，並擴大<span class="w">Organisation<span class="t">組織</span></span>。為此需要<span class="w">Kapital<span class="t">資金</span></span>。</div>
+
+<div class="line">好的，<span class="w">nur die Ruhe<span class="t">別急</span></span>。</div>
+
+<div class="line">那麼，我們<span class="w">Organisation<span class="t">組織</span></span>的<span class="w">Name<span class="t">名字</span></span>……是<span class="w">Shadow Garden<span class="t">暗影庭園</span></span>！</div>
+
+<div class="line">而你現在的<span class="w">Name<span class="t">名字</span></span>是<span class="w">Alpha<span class="t">阿爾法</span></span>。</div>
+
+<span class="scene">三年後</span>
+
+<div class="line">我完全<span class="w">improvisiert<span class="t">即興演出</span></span>的<span class="w">erster Auftritt<span class="t">首次登場</span></span>，已經是<span class="w">drei Jahre<span class="t">三年</span></span>前的事了。</div>
+
+<div class="line">我現在13歲，是一個完全<span class="w">durchschnittlicher<span class="t">普通的</span></span><span class="w">Schwertkämpferlehrling<span class="t">劍術學徒</span></span>。</div>
+
+<div class="line">你的<span class="w">Standfestigkeit<span class="t">步法穩定性</span></span>不夠！</div>
+
+<div class="line">這個<span class="w">Welt<span class="t">世界</span></span>的<span class="w">Schwertkunst<span class="t">劍術</span></span>可以說還<span class="w">unausgereift<span class="t">不成熟</span></span>。</div>
+
+<div class="line">回想起在<span class="w">Informationsgesellschaft<span class="t">資訊社會</span></span>中集結而成的合理新<span class="w">Kampfkünste<span class="t">格鬥術</span></span>……</div>
+
+<div class="line"><span class="w">Wäh<span class="t">哇</span></span>！你太強了，<span class="w">Schwesterchen<span class="t">姐姐</span></span>！</div>
+
+<div class="line">他完全沒有<span class="w">Fortschritte<span class="t">進步</span></span>。</div>
+
+<div class="line"><span class="w">Junges Fräulein<span class="t">大小姐</span></span>。——什麼事？</div>
+
+<div class="line">您的<span class="w">Mutter<span class="t">母親</span></span>找您。歡送您的<span class="w">Gäste<span class="t">客人</span></span>到了。</div>
+
+<div class="line"><span class="w">Cid<span class="t">希德</span></span>，我有一段<span class="w">Weile<span class="t">時間</span></span>不能跟你<span class="w">trainieren<span class="t">練習</span></span>了，但你也要一個人繼續<span class="w">weiter machen<span class="t">努力</span></span>。</div>
+
+<div class="line"><span class="w">Mach ich<span class="t">我會的</span></span>！</div>
+
+<div class="line">給他拿<span class="w">Handtücher<span class="t">毛巾</span></span>和乾淨的<span class="w">Wechselkleidung<span class="t">換洗衣服</span></span>。</div>
+
+<div class="line">演<span class="w">Volltrottel<span class="t">傻瓜</span></span>可不<span class="w">einfach<span class="t">容易</span></span>。但為了我的大日子，我必須扮演完美的<span class="w">Durchschnittstypen<span class="t">普通人</span></span>！</div>
+
+<div class="line">當<span class="w">Adlige<span class="t">貴族</span></span>到了15歲，就會前往<span class="w">Hauptstadt<span class="t">首都</span></span>的<span class="w">Midgar-Akademie<span class="t">米德加爾學園</span></span>就讀。</div>
+
+<div class="line">我的<span class="w">Schwester<span class="t">姐姐</span></span>也應該會去那裡……但在出發的日子到來時，她<span class="w">spurlos verschwunden<span class="t">毫無蹤跡地失蹤</span></span>了。</div>
+
+<span class="scene">尋找 Claire</span>
+
+<div class="line">怎麼<span class="w">möglich<span class="t">可能</span></span>？就算在<span class="w">Schlaf<span class="t">睡夢中</span></span>被襲擊，我的<span class="w">Claire<span class="t">乖兒</span></span>怎麼會……</div>
+
+<div class="line"><span class="w">Verbrecher<span class="t">犯人</span></span>一定非常<span class="w">geschickt<span class="t">老練</span></span>。</div>
+
+<div class="line">所以就什麼都做不了嗎？你想<span class="w">sagen<span class="t">說</span></span>的是這個嗎？</div>
+
+<div class="line">呃，不，<span class="w">auf keinen Fall<span class="t">絕對不是</span></span>……我只是陳述<span class="w">Fakten<span class="t">事實</span></span>……</div>
+
+<div class="line">別找藉口了，你這<span class="w">Glatzkopf<span class="t">禿頭</span></span>！</div>
+
+<div class="line"><span class="w">Es tut mir leid<span class="t">對不起</span></span>！<span class="w">Verzeih mir<span class="t">請原諒我</span></span>！——你等著瞧！</div>
+
+<div class="line">馬上去<span class="w">suchen<span class="t">找</span></span>她！萬一<span class="w">Claire<span class="t">乖兒</span></span>出了什麼事怎麼辦？</div>
+
+<div class="line">蛤？——<span class="w">Es tut mir leid<span class="t">對不起</span></span>！<span class="w">Verzeih mir<span class="t">請原諒我</span></span>！</div>
+
+<div class="line">啊！我的<span class="w">Arm<span class="t">手臂</span></span>！——<span class="w">Beta<span class="t">貝塔</span></span>。</div>
+
+<div class="line">什麼事，<span class="w">Meister Shadow<span class="t">暗影大人</span></span>？</div>
+
+<div class="line"><span class="w">Alpha<span class="t">阿爾法</span></span>像撿流浪<span class="w">Kätzchen<span class="t">小貓</span></span>一樣招募<span class="w">Shadow Garden<span class="t">暗影庭園</span></span>的新<span class="w">Mitglieder<span class="t">成員</span></span>。越來越多了。</div>
+
+<div class="line"><span class="w">Alpha<span class="t">阿爾法</span></span>在做什麼？——她在搜尋<span class="w">Fräulein Claire<span class="t">乖兒小姐</span></span>。她一如既往地<span class="w">schnell<span class="t">迅速</span></span>。</div>
+
+<div class="line"><span class="w">Claire<span class="t">乖兒</span></span>還<span class="w">lebt<span class="t">活著</span></span>嗎？——<span class="w">Vermutlich<span class="t">應該是</span></span>。</div>
+
+<div class="line"><span class="w">Natürlich<span class="t">當然</span></span>是<span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>幹的。<span class="w">Vorstand<span class="t">幹部們</span></span>。</div>
+
+<div class="line">為什麼是我的<span class="w">Schwester<span class="t">姐姐</span></span>？——他們也許<span class="w">vermuten<span class="t">懷疑</span></span><span class="w">Fräulein Claire<span class="t">乖兒小姐</span></span>是<span class="w">Heldenkind<span class="t">勇者之子</span></span>。</div>
+
+<div class="line"><span class="w">Verstehe<span class="t">原來如此</span></span>。對他們來說，每個<span class="w">Räuber<span class="t">強盜</span></span>和<span class="w">Entführer<span class="t">綁匪</span></span>都是<span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>的一份子。</div>
+
+<div class="line">請看看這個。這些是我們找到的他們的<span class="w">Verstecke<span class="t">藏匿處</span></span>。但還不知道<span class="w">Fräulein Claire<span class="t">乖兒小姐</span></span>在哪裡。</div>
+
+<div class="line">她在<span class="w">dort<span class="t">那裡</span></span>。</div>
+
+<div class="line"><span class="w">Mist<span class="t">可惡</span></span>！<span class="w">Verfehlt<span class="t">沒中</span></span>！——我的<span class="w">Schwester<span class="t">姐姐</span></span>就在那裡。</div>
+
+<div class="line">什麼？但那裡什麼都沒有……那<span class="w">Code<span class="t">密碼</span></span>只是<span class="w">Bluff<span class="t">障眼法</span></span>？</div>
+
+<div class="line">如果將這個和這段<span class="w">Schrift<span class="t">文字</span></span>對照——<span class="w">alles ergibt Sinn<span class="t">一切都說得通了</span></span>！</div>
+
+<div class="line"><span class="w">Meister Shadow<span class="t">暗影大人</span></span>！你說得<span class="w">recht<span class="t">對</span></span>！他們應該在那裡！</div>
+
+<div class="line"><span class="w">Dachte ich's mir<span class="t">我就知道</span></span>。</div>
+
+<div class="line">你在一<span class="w">Augenblick<span class="t">瞬間</span></span>就<span class="w">analysiert<span class="t">分析</span></span>了所有<span class="w">Informationen<span class="t">情報</span></span>！<span class="w">Einfach wundervoll<span class="t">真是太厲害了</span></span>！</div>
+
+<div class="line"><span class="w">Beta<span class="t">貝塔</span></span>真是個很棒的<span class="w">Schauspielerin<span class="t">演員</span></span>。簡直<span class="w">oscarreif<span class="t">可以拿奧斯卡</span></span>。</div>
+
+<div class="line">傳達給<span class="w">Sieben Schatten<span class="t">七影</span></span>：我們<span class="w">heute Nacht<span class="t">今晚</span></span>出擊。——<span class="w">Ja<span class="t">是</span></span>！</div>
+
+<span class="scene">突襲</span>
+
+<div class="line">我也有一個<span class="w">Tochter<span class="t">女兒</span></span>。我不想太<span class="w">grob<span class="t">粗暴</span></span>……<span class="w">Claire Kagenō<span class="t">乖兒·影野</span></span>！</div>
+
+<div class="line">即使戴著封<span class="w">Magie<span class="t">魔</span></span>的<span class="w">Ketten<span class="t">鎖鏈</span></span>你也能<span class="w">ausweichen<span class="t">閃避</span></span>？</div>
+
+<div class="line">我學到了：<span class="w">Magie<span class="t">魔力</span></span>不在於<span class="w">Menge<span class="t">量</span></span>，而在於<span class="w">Handhabung<span class="t">運用</span></span>。</div>
+
+<div class="line">你有一個很棒的<span class="w">Vater<span class="t">父親</span></span>。——那個<span class="w">Glatzkopf<span class="t">禿頭</span></span>？那是我的<span class="w">kleiner Bruder<span class="t">弟弟</span></span>。</div>
+
+<div class="line">你的<span class="w">Bruder<span class="t">弟弟</span></span>？</div>
+
+<div class="line"><span class="w">Kampf<span class="t">戰鬥</span></span>中我總是贏。但我總是從他的<span class="w">Schwertkunst<span class="t">劍術</span></span>中學習。他反而從我身上什麼也沒<span class="w">lernt<span class="t">學到</span></span>。</div>
+
+<div class="line">所以我每天都<span class="w">drangsaliere<span class="t">折磨</span></span>他。</div>
+
+<div class="line">當你出現<span class="w">Besessenheit<span class="t">附身</span></span>的<span class="w">Anzeichen<span class="t">徵兆</span></span>時，他也<span class="w">geheilt<span class="t">治好</span></span>了你。</div>
+
+<div class="line">又是那些<span class="w">Unsinn<span class="t">胡說八道</span></span>。全是<span class="w">Quatsch<span class="t">鬼扯</span></span>。他<span class="w">gar nicht in der Lage<span class="t">根本不可能</span></span>有那個能力。</div>
+
+<div class="line">雖然<span class="w">stimmt<span class="t">確實如此</span></span>……但我們還是應該看看你的<span class="w">kleinen Bruder<span class="t">弟弟</span></span>。</div>
+
+<div class="line">如果他出了什麼事，我<span class="w">bringe dich um<span class="t">殺了你</span></span>！</div>
+
+<div class="line">你<span class="w">abgeschürft<span class="t">擦傷</span></span>了<span class="w">Haut<span class="t">皮膚</span></span>？</div>
+
+<div class="line">我會<span class="w">töte<span class="t">殺</span></span>你、你心愛的<span class="w">Familie<span class="t">家人</span></span>和你所有的<span class="w">Freunde<span class="t">朋友</span></span>……</div>
+
+<div class="line"><span class="w">Kleines Gör<span class="t">臭丫頭</span></span>！<span class="w">Was soll's<span class="t">算了</span></span>！</div>
+
+<div class="line">我只需要你的<span class="w">Blut<span class="t">血</span></span>，就能知道你是否<span class="w">geeignet<span class="t">適合</span></span>！</div>
+
+<div class="line"><span class="w">Herr Olba<span class="t">奧爾巴大人</span></span>！這是怎麼回事？</div>
+
+<div class="line"><span class="w">Eindringlinge<span class="t">入侵者</span></span>！大概有<span class="w">sieben<span class="t">七個</span></span>人！</div>
+
+<div class="line">他們像<span class="w">Schatten<span class="t">影子</span></span>一樣從<span class="w">Nichts<span class="t">虛無</span></span>中現身，然後<span class="w">erledigen<span class="t">解決了</span></span>士兵們！</div>
+
+<div class="line">我們沒有<span class="w">Chance<span class="t">勝算</span></span>！<span class="w">Unmöglich<span class="t">不可能</span></span>！</div>
+
+<div class="line">這些<span class="w">Soldaten<span class="t">士兵</span></span>應該跟<span class="w">Königliche Leibgarde<span class="t">王室禁衛隊</span></span>一樣厲害！</div>
+
+<div class="line">什、什麼……？你們到底是<span class="w">wer<span class="t">誰</span></span>？</div>
+
+<div class="line">我們是<span class="w">Shadow Garden<span class="t">暗影庭園</span></span>。我們的<span class="w">Ziel<span class="t">目標</span></span>是<span class="w">Auslöschung<span class="t">消滅</span></span><span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>。</div>
+
+<div class="line">我們什麼都<span class="w">Bescheid<span class="t">知道</span></span>。<span class="w">Dämon Diablos<span class="t">魔神暗魔</span></span>的<span class="w">Wiederauferstehung<span class="t">復活</span></span>、<span class="w">Heldenkinder<span class="t">勇者之子</span></span>……以及<span class="w">Dämonenbesessenheit<span class="t">惡魔附身</span></span>的<span class="w">Wahrheit<span class="t">真相</span></span>。</div>
+
+<div class="line"><span class="w">Diablos-Kult<span class="t">暗魔教團</span></span>？你們怎麼<span class="w">wisst<span class="t">知道</span></span>的？還知道那些<span class="w">Geheimnisse<span class="t">秘密</span></span>？</div>
+
+<div class="line">我們不會<span class="w">töten<span class="t">殺</span></span>你。至少在你<span class="w">gesungen<span class="t">招供</span></span>之前不會。</div>
+
+<div class="line">有趣的<span class="w">Trick<span class="t">把戲</span></span>。追他吧。——沒有<span class="w">nötig<span class="t">必要</span></span>。他在<span class="w">anderen Ende<span class="t">另一頭</span></span>等著。</div>
+
+<div class="line">所以他才跟我們<span class="w">getrennt<span class="t">分開</span></span>行動？<span class="w">Meister Shadow<span class="t">暗影大人</span></span>看穿了一切！</div>
+
+<span class="scene">Shadow vs Olba</span>
+
+<div class="line">我在哪裡？太專注在<span class="w">kleinen Fische<span class="t">小嘍囉</span></span>身上了……<span class="w">Scheiße<span class="t">可惡</span></span>。</div>
+
+<div class="line">你來<span class="w">abfangen<span class="t">攔截</span></span>我？但你這<span class="w">Knirps<span class="t">小鬼</span></span>我會壓扁！</div>
+
+<div class="line">你的<span class="w">Magie<span class="t">魔力</span></span>本身比<span class="w">Alpha<span class="t">阿爾法</span></span>還<span class="w">stärker<span class="t">強</span></span>。可惜你<span class="w">völlig unfähig<span class="t">完全不會</span></span>運用它。</div>
+
+<div class="line">還有：你的<span class="w">Standfestigkeit<span class="t">步法穩定性</span></span>不夠。你的<span class="w">Kampfstil<span class="t">戰鬥方式</span></span>完全<span class="w">stümperhaft<span class="t">業餘</span></span>。</div>
+
+<div class="line">我來教你怎麼<span class="w">richtig<span class="t">正確地</span></span>使用<span class="w">Magie<span class="t">魔力</span></span>。</div>
+
+<div class="line"><span class="w">Lektion eins<span class="t">第一課</span></span>：將少量<span class="w">Magiemenge<span class="t">魔力量</span></span>集中到<span class="w">Beinen<span class="t">雙腿</span></span>以提升<span class="w">Tempo<span class="t">速度</span></span>。</div>
+
+<div class="line"><span class="w">Lektion zwei<span class="t">第二課</span></span>：縮短<span class="w">Distanz<span class="t">距離</span></span>，這樣既不需要<span class="w">Kraft<span class="t">力量</span></span>、<span class="w">Schnelligkeit<span class="t">速度</span></span>……也不需要<span class="w">Magie<span class="t">魔力</span></span>。</div>
+
+<div class="line"><span class="w">Lektion drei<span class="t">第三課</span></span>：我們還遠遠沒有<span class="w">fertig<span class="t">結束</span></span>！</div>
+
+<div class="line">我曾<span class="w">jemals<span class="t">何時</span></span>面對這麼<span class="w">eindeutig unterlegen<span class="t">明顯佔上風</span></span>的<span class="w">Gegner<span class="t">對手</span></span>？</div>
+
+<div class="line">頂多是我還是<span class="w">Kind<span class="t">孩子</span></span>的時候，手裡剛拿起<span class="w">Schwert<span class="t">劍</span></span>面對<span class="w">Lehrmeister<span class="t">師父</span></span>。</div>
+
+<div class="line">但是……不管你有多<span class="w">stark<span class="t">強</span></span>，這個<span class="w">Welt<span class="t">世界</span></span>的<span class="w">Finsternis<span class="t">黑暗</span></span>要深邃得多，遠超你的<span class="w">Vorstellung<span class="t">想像</span></span>！</div>
+
+<div class="line">那我就會<span class="w">so tief eintauchen<span class="t">潛入那麼深</span></span>，如我所需。</div>
+
+<div class="line">如此<span class="w">Vermessenheit<span class="t">狂妄</span></span>！我讓你見識這個<span class="w">Welt<span class="t">世界</span></span>的<span class="w">Finsternis<span class="t">黑暗</span></span>！</div>
+
+<div class="line">你又<span class="w">leicht<span class="t">輕</span></span>又<span class="w">fragil<span class="t">脆弱</span></span>！面對<span class="w">Realität<span class="t">現實</span></span>吧！感受你自己的<span class="w">Machtlosigkeit<span class="t">無力</span></span>吧！</div>
+
+<div class="line">多麼<span class="w">unansehnlich<span class="t">難看</span></span>。</div>
+
+<div class="line">那是什麼？這股<span class="w">enorme Magie<span class="t">巨大的魔力</span></span>從哪來的？</div>
+
+<div class="line"><span class="w">Schluss<span class="t">結束</span></span>遊戲了。</div>
+
+<div class="line"><span class="w">Verstehe<span class="t">我明白了</span></span>……你不僅掌握了<span class="w">Technik<span class="t">技術</span></span>，而是<span class="w">alles<span class="t">一切</span></span>。</div>
+
+<div class="line">面對<span class="w">Finsternis<span class="t">黑暗</span></span>，我<span class="w">machtlos<span class="t">無能為力</span></span>。然而這個<span class="w">Junge<span class="t">少年</span></span>……</div>
+
+<div class="line"><span class="w">Millia<span class="t">米莉亞</span></span>……</div>
+
+<span class="scene">結局</span>
+
+<div class="line">作為一個<span class="w">Räuber<span class="t">強盜</span></span>來說，他可真<span class="w">stark<span class="t">強</span></span>。</div>
+
+<div class="line">就這樣，我們結束了這次<span class="w">Rettung<span class="t">救援</span></span>。</div>
+
+<div class="line">我解開了<span class="w">Claire<span class="t">乖兒</span></span>的<span class="w">Ketten<span class="t">鎖鏈</span></span>，她隔天就<span class="w">genervt<span class="t">心煩意亂地</span></span>回來了。</div>
+
+<div class="line">她真<span class="w">zäh<span class="t">堅強</span></span>。幾乎所有的<span class="w">Wunden<span class="t">傷口</span></span>一夜之間就<span class="w">verheilt<span class="t">痊癒</span></span>了。</div>
+
+<div class="line">然後她就像什麼都沒發生一樣出發去<span class="w">königliche Hauptstadt<span class="t">王都</span></span>了。</div>
+
+<div class="line">那裡一定很<span class="w">schön<span class="t">好</span></span>……那座<span class="w">Stadt<span class="t">城市</span></span>好大，完全無法跟這裡比。</div>
+
+<div class="line">那裡肯定有適合當<span class="w">Protagonisten<span class="t">主角</span></span>的<span class="w">Charaktere<span class="t">角色</span></span>。還有<span class="w">Endboss<span class="t">最終頭目</span></span>……</div>
+
+<div class="line">算了，再過<span class="w">zwei Jahren<span class="t">兩年</span></span>我也能去。在那之前，<span class="w">Alpha<span class="t">阿爾法</span></span>和其他人得<span class="w">reinhängen<span class="t">努力</span></span>了……</div>
+
+<div class="line"><span class="w">Shadow<span class="t">暗影</span></span>。是我們<span class="w">verlassen<span class="t">離開</span></span>你的時候了。</div>
+
+<div class="line">蛤？</div>
+
+<div class="line"><span class="w">Auf Wiedersehen<span class="t">再見</span></span>。</div>
+
+<div class="line">什麼？</div>
+
+<span class="scene">ED 片尾曲</span>
+
+<div class="line">雖然人們說每個<span class="w">Nacht<span class="t">夜晚</span></span>終將<span class="w">vorüberzieht<span class="t">過去</span></span>，但在我看來那並非<span class="w">notwendig<span class="t">必然</span></span>。</div>
+
+<div class="line">有些<span class="w">Spuren<span class="t">痕跡</span></span>人們想要<span class="w">verwischen<span class="t">抹去</span></span>，有些<span class="w">Erinnerungen<span class="t">回憶</span></span>想要<span class="w">vergessen<span class="t">遺忘</span></span>。</div>
+
+<div class="line">但<span class="w">Sonne<span class="t">太陽</span></span>會將它們全部帶到<span class="w">Licht<span class="t">光明</span></span>之下。</div>
+
+<div class="line">在尋找<span class="w">Sternschnuppe<span class="t">流星</span></span>的途中，我四處<span class="w">umherirrte<span class="t">徘徊</span></span>，直到終於<span class="w">traf<span class="t">遇見</span></span>了你。</div>
+
+<div class="line">在<span class="w">Himmel<span class="t">天空</span></span><span class="w">funkeln<span class="t">閃耀</span></span>的<span class="w">Sterne<span class="t">星星</span></span>，為我們指引通往充滿<span class="w">Hoffnung<span class="t">希望</span></span>的<span class="w">Zukunft<span class="t">未來</span></span>之路。</div>
+
+<div class="line">讓我們毫不<span class="w">zögern<span class="t">猶豫</span></span>地繼續前行。</div>
+
+<div class="line">跟隨那帶我們穿越<span class="w">finstere Nacht<span class="t">黑暗之夜</span></span>的<span class="w">Gebet<span class="t">祈禱</span></span>。</div>
+
+<div class="line">即使我們無法達到那個<span class="w">Ziel<span class="t">目標</span></span>，我仍然想對你<span class="w">danken<span class="t">感謝</span></span>一切。</div>
+
+</main>
+
+
+<script>
+(function(){
+  var synth = window.speechSynthesis;
+  var deVoice = null;
+  var debounce = null;
+
+  function findDeVoice(){
+    var voices = synth.getVoices();
+    for(var i=0;i<voices.length;i++){
+      if(voices[i].lang.indexOf('de')===0) { deVoice=voices[i]; break; }
+    }
+  }
+  findDeVoice();
+  if(synth.onvoiceschanged!==undefined) synth.onvoiceschanged=findDeVoice;
+
+  function speak(text){
+    if(!text||!text.trim()) return;
+    synth.cancel();
+    var u=new SpeechSynthesisUtterance(text.trim());
+    u.lang='de-DE';
+    u.rate=0.9;
+    if(deVoice) u.voice=deVoice;
+    synth.speak(u);
+  }
+
+  function getDeText(el){
+    var cl=el.className;
+    if(cl.indexOf('w')!==-1 && cl.indexOf('w')===cl.indexOf('w')){
+      var t=el.querySelector('.t');
+      var full=el.textContent;
+      if(t) full=full.replace(t.textContent,'');
+      return full;
+    }
+    if(cl.indexOf('d')!==-1){
+      var t=el.querySelector('.t');
+      var full=el.textContent;
+      if(t) full=full.replace(t.textContent,'');
+      return full;
+    }
+    if(cl.indexOf('c')!==-1){
+      var t=el.querySelector('.t');
+      return t?t.textContent:'';
+    }
+    return '';
+  }
+
+  document.addEventListener('mouseover',function(e){
+    var el=e.target;
+    if(!el.classList) return;
+    if(el.classList.contains('d')||el.classList.contains('c')||el.classList.contains('w')){
+      clearTimeout(debounce);
+      debounce=setTimeout(function(){ speak(getDeText(el)); },150);
+    }
+  });
+
+  document.addEventListener('mouseout',function(e){
+    var el=e.target;
+    if(!el.classList) return;
+    if(el.classList.contains('d')||el.classList.contains('c')||el.classList.contains('w')){
+      clearTimeout(debounce);
+    }
+  });
+})();
+</script>
+</body>
+</html>
